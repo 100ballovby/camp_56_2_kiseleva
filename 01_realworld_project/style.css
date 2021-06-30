@@ -1,0 +1,70 @@
+.features p {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 0 5px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-transform: uppercase;
+}
+
+.feature-furniture {
+    padding-top: 65px;
+    background-image: url("https://htmlacademy.ru/assets/courses/297/img/furniture.svg");
+}
+
+.feature-lighting {
+    padding-top: 65px;
+    background-image: url("https://htmlacademy.ru/assets/courses/297/img/lighting.svg");
+}
+
+.feature-accessories {
+    padding-top: 65px;
+    background-image: url("https://htmlacademy.ru/assets/courses/297/img/accessories.svg");
+}
+
+body {
+    margin: 0;  /* обнуляю внешние отступы */
+    padding: 0;  /* обнуляю внутренние отступы */
+    font-family: 'Jura', 'Helvetica', 'Calibri', sans-serif; /* выставляю шрифты без засечек */
+    color: #444444;  /* выставляю цвет шрифта */
+    font-size: 18px;
+}
+
+.container {
+    width: 60%;
+    max-width: 600px;
+    /* ширина всегда 60%, но при этом не больше 600 пикселей */
+    margin: 0 auto;  /* выставляю по середине */
+    padding: 0 20px; /* внутренние отступы слева и справа */
+}
+
+.site-header {
+    height: 30vh; /* viewport height - высота области просмотра (окна)*/
+    background: #847462;
+    color: #fff;
+    padding: 1em; /* em - относительная единица измерения, примрено 16пикселей */
+    margin-bottom: 5em; /* 8px * 5 = 40px (условно) */
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    line-height: 1em;  /* высота линии букв (воздух вокруг букв) */
+}
+
+.features, /* общая стилизация для двух элементов на странице */
+.advantages {
+    width: 80%;
+    margin: 0 auto 2em;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.site-footer {
+    background: #847462;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+

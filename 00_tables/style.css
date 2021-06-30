@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;  /* без отступов между ячеек */
+    margin: 50px auto; /* расположение посередине */
+    font-size: 24px; /* размер шрифта */
+}
+
+td, th {
+    border-bottom: 3px solid #00ff21;
+    /* dotted, double, dashed */
+    padding: 20px;
+    transition: background 0.5s, border 0.5s;
+}
+
+td:hover {
+    background: #b4b4b4;
+    border: 2px solid red;
+}
+
+tr:nth-child(even) {
+    background: #f5f5f5;
+}
+tr:nth-child(odd) {
+    background: #dbdbdb;
+}
+
